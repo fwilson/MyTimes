@@ -1,20 +1,43 @@
-.Header {
+Header {
   display: flex;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+}
+
+.Logo-Title {
+  display: inline-flex;
   align-items: center;
-}
-
-.HeaderNav {
-  display: inline-block;
-  justify-content: flex-end;
-}
-
-.Header img {
-  margin: 10px 20px;
-}
-
-h1 {
+  flex-grow: 1;
   color: MediumAquamarine;
+  margin-left: 30px;
+}
+
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.Logo-Title img {
+  padding: 20px 10px;
+}
+
+nav span {
+  margin: 20px;
+}
+
+nav a {
+  color: black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
