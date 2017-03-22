@@ -3,10 +3,16 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  align-items: center;
 }
 
 .HeaderNav {
   display: inline-block;
+  justify-content: flex-end;
+}
+
+.Header img {
+  margin: 10px 20px;
 }
 
 h1 {
