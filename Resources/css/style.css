@@ -1,3 +1,5 @@
+/* Header */
+
 Header {
   display: flex;
   position: fixed;
@@ -28,7 +30,7 @@ Header {
 }
 
 .Logo-Title img {
-  padding: 20px 10px;
+  padding: 0px 10px;
 }
 
 nav span {
@@ -40,4 +42,29 @@ nav a {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+
+/* Main Content */
+
+div {
+  border: 1px solid black;
+}
+
+.MainContent {
+  display: flex;
+}
+
+.Col1-Large {
+  display: flex;
+  width: 630px;
+}
+
+.Col2-Med {
+  display: flex;
+  width: 300px;
+}
+
+.Col3-Small {
+  display: flex;
+  width: 240px;
 }
